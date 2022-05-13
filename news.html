@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  
+  <!-- header -->
+
+  <section class="sub-header s-h-updates">
+
+    <nav>
+      <div class="logo">
+      <a href="index.html">
+        <img src="img/logo.png" alt="logo">
+      </a>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="agents.html">Агенты</a></li>
+          <li><a href="maps.html">Карты</a></li>
+          <li><a href="news.html">Новости</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>НОВОСТИ</h1>
+
+  </section>
+
+  <!-- END header -->
+
+  <!-- facilities -->
+
+  <section class="facilities">
+    
+    <div class="row">
+      <div class="facilities-col">
+        <img src="img/n1.png" alt="library">
+        <p>10.05.22</p>
+        <h3>VALORANT – СПИСОК ИЗМЕНЕНИЙ ПАТЧА 4.09</h3>
+      </div>
+      <div class="facilities-col">
+        <img src="img/n2.png" alt="basketball">
+        <p>28.04.22</p>
+        <h3>БУДУЩЕЕ СОРЕВНОВАТЕЛЬНОЙ СИСТЕМЫ VALORANT</h3>
+      </div>
+      <div class="facilities-col">
+        <img src="img/n3.png" alt="cafeteria">
+        <p>28.04.22</p>
+        <h3>АНОНС ОБЛИКОВ "RGX 11Z PRO" - VALORANT</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="facilities-col">
+        <img src="img/n4.png" alt="library">
+        <p>27.04.22</p>
+        <h3>VALORANT – СПИСОК ИЗМЕНЕНИЙ ПАТЧА 4.08</h3>
+      </div>
+      <div class="facilities-col">
+        <img src="img/n5.png" alt="basketball">
+        <p>25.04.22</p>
+        <h3>АНОНС ИГРОВОГО ПРОЦЕССА FADE // VALORANT</h3>
+      </div>
+      <div class="facilities-col">
+        <img src="img/n6.png" alt="cafeteria">
+        <p>20.04.22</p>
+        <h3>ОБНОВЛЕНИЕ JETT В ПАТЧЕ 4.08 ДЛЯ VALORANT</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="facilities-col">
+        <img src="img/n7.png" alt="library">
+        <p>18.04.22</p>
+        <h3>АНОНС НОВОГО АГЕНТА FADE В ФИНАЛЕ ТУРНИРА MASTERS</h3>
+      </div>
+      <div class="facilities-col">
+        <img src="img/n8.png" alt="basketball">
+        <p>15.04.22</p>
+        <h3>О СТАБИЛЬНОСТИ ИГРОВОГО ПРОЦЕССА VALORANT</h3>
+      </div>
+      <div class="facilities-col">
+        <img src="img/n9.png" alt="cafeteria">
+        <p>12.04.22</p>
+        <h3>VALORANT – СПИСОК ИЗМЕНЕНИЙ ПАТЧА 4.07</h3>
+      </div>
+    </div>
+
+
+  <!-- end facilities -->
+
+  <!-- footer -->
+
+  <section class="footer">
+    <h3>VALORANT</h3>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-youtube"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitch"></i>
+    </div>
+    <p>© 2022 Riot Games, Inc.Riot Games.</p>
+  </section>
+
+  <!-- end footer -->
+
+  <script>
+    let navLinks = document.getElementById('navLinks');
+    function showMenu() {
+      navLinks.style.right = '0';
+    }
+    function hideMenu() {
+      navLinks.style.right = '-200px';
+    }
+  </script>
+  <script src="https://kit.fontawesome.com/7860584906.js" crossorigin="anonymous"></script>
+</body>
+</html>
